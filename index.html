@@ -1,47 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My ePortfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css" media="screen" type="text/css">
+    <link rel="stylesheet" href="assets/css/custom.css" media="screen" type="text/css">
+    <link rel="stylesheet" href="assets/css/print.css" media="print" type="text/css">
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            const f = d.getElementsByTagName(s)[0];
+            const j = d.createElement(s);
+            const dl = l != 'dataLayer' ? `&l=${l}` : '';
+            j.async = true;
+            j.src = `https://www.googletagmanager.com/gtm.js?id=${i}${dl}`;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PTHS2KL');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <title>My Custom ePortfolio</title>
 </head>
+
 <body>
     <header>
-        <h1>Your Name's ePortfolio</h1>
-        <h2>Computer Science Capstone</h2>
-        <nav>
-            <ul>
-                <li><a href="#self-assessment">Professional Self-Assessment</a></li>
-                <li><a href="#code-review">Informal Code Review</a></li>
-                <li><a href="#artifacts">Artifacts</a></li>
-                <li><a href="#narratives">Narratives</a></li>
-            </ul>
-        </nav>
+        <div class="header-content">
+            <a href="index.html">
+                <h1>Your Name's ePortfolio</h1>
+            </a>
+            <h2>Computer Science Capstone</h2>
+            <a href="https://github.com/yourusername/yourrepo" class="button"><small>View project on</small> GitHub</a>
+        </div>
     </header>
 
-    <section id="self-assessment">
-        <h3>Professional Self-Assessment</h3>
-        <p>This section will contain your self-assessment. Reflect on your growth in the Computer Science program, your professional goals, and how this ePortfolio showcases your skills and achievements.</p>
-    </section>
+    <div id="content-wrapper">
+        <div class="content-inner">
+            <section id="main-content">
+                <article>
+                    <h2>Professional Self-Assessment</h2>
+                    <p>Insert your self-assessment content here...</p>
+                </article>
 
-    <section id="code-review">
-        <h3>Informal Code Review</h3>
-        <p>This section will feature your code review video and descriptions. You will explain the existing functionality, analyze the code, and outline the planned enhancements.</p>
-    </section>
+                <article>
+                    <h2>Informal Code Review</h2>
+                    <p>Embed or link your code review video and provide a detailed explanation here...</p>
+                </article>
 
-    <section id="artifacts">
-        <h3>Artifacts</h3>
-        <p>This section will showcase the artifacts you've selected to demonstrate your skills in Software Design, Algorithms and Data Structures, and Databases. Provide links or descriptions of the projects you've worked on.</p>
-    </section>
+                <article>
+                    <h2>Artifacts</h2>
+                    <p>Showcase your project artifacts here...</p>
+                </article>
 
-    <section id="narratives">
-        <h3>Narratives</h3>
-        <p>Here, you'll include narratives for each artifact, explaining why you chose them, how you enhanced them, and what you learned from the process.</p>
-    </section>
+                <article>
+                    <h2>Narratives</h2>
+                    <p>Provide narratives for each artifact, discussing enhancements and learnings...</p>
+                </article>
+            </section>
 
-    <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
-    </footer>
+            <aside id="sidebar">
+                <nav id="sidebar-menu">
+                    <h2>Navigation</h2>
+                    <ul>
+                        <li><a href="#self-assessment">Professional Self-Assessment</a></li>
+                        <li><a href="#code-review">Informal Code Review</a></li>
+                        <li><a href="#artifacts">Artifacts</a></li>
+                        <li><a href="#narratives">Narratives</a></li>
+                    </ul>
+                </nav>
+
+                <div id="honors-awards">
+                    <h2>Merit Page</h2>
+                    <p><a href="https://meritpages.com/yourname" target="_blank"><img src="assets/img/Merit_Logo.jpg" alt="Merit Page Logo" width="85" /></a></p>
+                    <h2>Honors | Awards</h2>
+                    <div class="awards">
+                        <a href="https://example.com/honor-roll-1" target="_blank"><img src="assets/img/Honor_Roll_badge.png" alt="Honor Roll Badge" width="100px" /></a>
+                        <a href="https://example.com/honor-roll-2" target="_blank"><img src="assets/img/Honor_Roll_badge.png" alt="Honor Roll Badge" width="100px" /></a>
+                        <!-- Add more awards as needed -->
+                    </div>
+                </div>
+
+                <p>Page generated by <a href="https://pages.github.com">GitHub Pages</a>.</p>
+                <p><em>&copy 2024 Made with &#10084; by Your Name</em></p>
+            </aside>
+        </div>
+    </div>
+
 </body>
+
 </html>
