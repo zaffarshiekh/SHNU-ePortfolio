@@ -110,4 +110,4 @@ This artifact focuses on the backend database management for the **Grazioso Salv
 
 This section contains my professional self-assessment, reflecting on my journey through the Computer Science program. It highlights how the coursework and the development of this ePortfolio have helped shape my professional goals and prepare me for a career in the computer science field.
 
-[Professional Self-Assessment](https://github.com/zaffarshiekh/SHNU-ePortfolio/blob/0ce336e07b11d2423e10b48e649bf3d2036e3a0f/Professional%20Self-Assessment.docx)]
+[Professional Self-Assessment](https://github.com/zaffarshiekh/SHNU-ePortfolio/blob/0ce336e07b11d2423e10b48e649bf3d2036e3a0f/Professional%20Self-Assessment.docx)
