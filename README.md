@@ -1,5 +1,6 @@
 # SHNU-ePortfolio
 
+
 ## Introduction
 
 Welcome to my professional ePortfolio, which demonstrates my growth and expertise in three key areas of computer science: **Software Design and Engineering**, **Algorithms and Data Structures**, and **Database Management**. This repository contains three artifacts, each representing a different facet of my development throughout my Computer Science program.
